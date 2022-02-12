@@ -1,0 +1,45 @@
+body,
+html,
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    background: rgb(227, 227, 235);
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+
+    .container {
+        display: grid;
+        place-items: center;
+        padding: 20px;
+
+        .content {
+            background: #fff;
+            border-radius: 0.7rem;
+            width: 33%;
+
+            img {
+                width: 25.1rem;
+                height: auto;
+                border-radius: 0.7rem;
+                margin: 0.8rem;
+                padding-left: 0.5rem;
+                padding-top: 0.5rem;
+            }
+
+            h2,p{
+                text-align: center;
+                margin: 10px;
+            }
+
+            p {
+                color: rgb(170, 169, 169);
+            }
+        }
+    }
+}
+

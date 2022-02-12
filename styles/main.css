@@ -1,0 +1,39 @@
+body,
+html,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  background: #e3e3eb;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.wrapper .container {
+  display: grid;
+  place-items: center;
+  padding: 20px;
+}
+.wrapper .container .content {
+  background: #fff;
+  border-radius: 0.7rem;
+  width: 33%;
+}
+.wrapper .container .content img {
+  width: 25.1rem;
+  height: auto;
+  border-radius: 0.7rem;
+  margin: 0.8rem;
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+}
+.wrapper .container .content h2, .wrapper .container .content p {
+  text-align: center;
+  margin: 10px;
+}
+.wrapper .container .content p {
+  color: #aaa9a9;
+}/*# sourceMappingURL=main.css.map */
